@@ -1,5 +1,5 @@
 const container = document.querySelector('#container');
-let squareSize = 16
+let squareSize = 50
 
 
 function createDivs() {
@@ -46,7 +46,6 @@ slider.oninput = function() {
     createDivs()
     changeGridSize()
     changeBackground()
-    console.log(squareSize)
 };
 
 //Change background colors of each div to black when mouse enters the div//
@@ -57,3 +56,7 @@ function changeBackground() {
     });
 });
 }
+
+createDivs()
+changeGridSize()
+changeBackground()
