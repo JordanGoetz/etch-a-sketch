@@ -1,5 +1,41 @@
-.container {
-        width: 500px;
-        height: 500px;
-        padding: 200px;
+#container {
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        display: grid;
+        border: 2px solid black;
+        margin: auto;        
+}
+
+.hovered {
+        background-color: black;
+}
+
+#button {
+        height: 30px;
+        width: 120px;
+        margin: 10px;
+}
+
+#left {
+        display: flex;
+        border: 2px solid black;
+        padding: auto;
+        gap: 100px;
+        width: 150px;
+        gap: 10px;
+        margin-right: 30px;
+        flex-wrap: wrap;
+}
+
+#fullBody {
+        display: flex;
+        justify-content: center;
+}
+
+.slideContainer {
+        display: flex;
+        width: 120px;
+        height: 30px;
+        flex-wrap: wrap;
 }
